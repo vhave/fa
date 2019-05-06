@@ -1,4 +1,8 @@
 (function($) {
+  $('.box-team-bottom a').click(function(){
+    $(this).parent().removeClass('current')
+    // $(this).parent('.col-xs-12').siblings().find('.box-team-bottom').removeClass('current')
+  })
 
   $('#myCarousel').carousel({interval:2000});
 
