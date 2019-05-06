@@ -804,12 +804,12 @@ more media queries
 .box-team-bottom{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .box-team-bottom h5,.original .box-team .right h5{
     margin: 0;
-    color: #911726;
+    color: #3a3a3a;
 }
 
 .box-team-bottom > a{
