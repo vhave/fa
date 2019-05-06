@@ -889,11 +889,10 @@ more media queries
     position: absolute;
     left: 50%;
     top: 50%;
-    width: 600px;
+    width: 60%;
     height: 150px;
     background: rgba(0,0,0,.5);
-    margin-left: -300px;
-    margin-top: -75px;
+   transform: translate(-50%,-50%);
     color: #fff;
     padding: 30px 0;
     box-sizing: border-box;
