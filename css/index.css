@@ -846,6 +846,10 @@ more media queries
     text-align: left;
 }
 
+.content h6{
+    margin-bottom: 45px;
+}
+
 .integration .img{
     background: #fff;
     width: 100%;
