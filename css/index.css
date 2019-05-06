@@ -846,18 +846,10 @@ more media queries
     text-align: left;
 }
 
-.content{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+.about-img{
+    max-height: 335px;
+    overflow: hidden;
 }
-
-.content::before,.content::after{
-    display: block;
-    content: '';
-    clear: both;
-}
-
 
 .content h6{
     margin-bottom: 45px;
