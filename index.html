@@ -9,11 +9,12 @@
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="css/default.css">
   <link rel="stylesheet" href="css/animate.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,300,700,800" rel="stylesheet" media="screen">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,300,700,800" rel="stylesheet"
+        media="screen">
   <link rel="stylesheet" href="css/font-awesome.main.css">
 </head>
 <body>
-  <nav class="navbar navbar-default fixed-to-top" role="navigation" style="display: block">
+<nav class="navbar navbar-default fixed-to-top" role="navigation" style="display: block">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -38,53 +39,97 @@
   </div>
 </nav>
 
-  <section id="about" class="home-section bg-white">
+<div id="myCarousel" class="carousel slide">
+  <!-- 轮播（Carousel）指标 -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+  </ol>
+  <!-- 轮播（Carousel）项目 -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="img/parallax/1.jpg" alt=""/>
+    </div>
+    <div class="item">
+      <img src="img/parallax/2.jpg" alt=""/>
+    </div>
+  </div>
+</div>
+
+<section id="about" class="home-section bg-white">
   <div class="col-md-offset-2 col-md-8">
     <div class="section-heading">
       <h2>四大功能</h2>
       <div class="heading-line"></div>
     </div>
   </div>
-  <div class="row">
-    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-      <div class="box-team wow bounceInUp" data-wow-delay="0.1s">
-        <img src="img/项目资方池.jpg" alt="" class="img-responsive"/>
-        <h5 class="heading-line">项目资方池</h5>
+  <div class="container">
+    <div class="row project">
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        <div class="box-team wow bounceInUp" data-wow-delay="0.1s">
+          <div class="img">
+            <img src="img/项目资方池.jpg" alt="" class="img-responsive"/>
+          </div>
+          <div class="box-team-bottom navigation">
+            <h5>项目资方池</h5>
+            <a href="#contact">申请试用</a>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3" data-wow-delay="0.3s">
-      <div class="box-team wow bounceInUp">
-        <img src="img/fa撮合.jpg" alt="" class="img-responsive"/>
-        <h5 class="heading-line">FA撮合</h5>
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" data-wow-delay="0.3s">
+        <div class="box-team wow bounceInUp">
+          <div class="img">
+            <img src="img/fa撮合.jpg" alt="" class="img-responsive"/>
+          </div>
+          <div class="box-team-bottom navigation">
+            <h5>FA撮合</h5>
+            <a href="#contact">申请试用</a>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-      <div class="box-team wow bounceInUp" data-wow-delay="0.5s">
-        <img src="img/及时通讯.jpg" alt="" class="img-responsive"/>
-        <h5 class="heading-line">即时通讯</h5>
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        <div class="box-team wow bounceInUp" data-wow-delay="0.5s">
+          <div class="img">
+            <img src="img/及时通讯.jpg" alt="" class="img-responsive"/>
+          </div>
+          <div class="box-team-bottom navigation">
+            <h5>即时通讯</h5>
+            <a href="#contact">申请试用</a>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3" data-wow-delay="0.7s">
-      <div class="box-team wow bounceInUp">
-        <img src="img/线上路演厅.jpg" alt="" class="img-responsive"/>
-        <h5 class="heading-line">全球路演中心</h5>
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" data-wow-delay="0.7s">
+        <div class="box-team wow bounceInUp">
+          <div class="img">
+            <img src="img/线上路演厅.jpg" alt="" class="img-responsive"/>
+          </div>
+          <div class="box-team-bottom navigation">
+            <h5>全球路演中心</h5>
+            <a href="#contact">申请试用</a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
+
 </section>
 
 
-  <section class="home-section bg-gray">
-    <div class="col-md-offset-2 col-md-8">
-      <div class="section-heading">
-        <h2>内部管理与外部合作一体化</h2>
-        <div class="heading-line"></div>
-      </div>
+<section class="home-section bg-gray">
+  <div class="col-md-offset-2 col-md-8">
+    <div class="section-heading">
+      <h2>内部管理与外部合作一体化</h2>
+      <div class="heading-line"></div>
     </div>
-    <div class="row">
+  </div>
+  <div class="container">
+    <div class="row integration">
       <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-        <div class="box-team wow bounceInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceInUp;">
-          <img src="img/fa内部管理.jpg" alt="" class="img-responsive">
+        <div class="box-team wow bounceInUp" data-wow-delay="0.1s"
+             style="visibility: visible; animation-delay: 0.1s; animation-name: bounceInUp;">
+          <div class="img">
+            <img src="img/fa内部管理.jpg" alt="" class="img-responsive">
+          </div>
           <h5>FA内部管理</h5>
           <p>
             实时动态掌握资金方、项目方变化情况<br>让管理不再有盲区，使业务成交机会实现倍增
@@ -93,7 +138,9 @@
       </div>
       <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" data-wow-delay="0.3s">
         <div class="box-team wow bounceInUp" style="visibility: visible; animation-name: bounceInUp;">
-          <img src="img/fa撮合市场.jpg" alt="" class="img-responsive">
+          <div class="img">
+            <img src="img/fa撮合市场.jpg" alt="" class="img-responsive">
+          </div>
           <h5>FA撮合市场</h5>
           <p>
             实时发现项目合作机会，实现资金、<br>项目的最大化资源整合，促成每个交易机会。
@@ -101,8 +148,11 @@
         </div>
       </div>
       <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-        <div class="box-team wow bounceInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: bounceInUp;">
-          <img src="img/全球路演中心.jpg" alt="" class="img-responsive">
+        <div class="box-team wow bounceInUp" data-wow-delay="0.5s"
+             style="visibility: visible; animation-delay: 0.5s; animation-name: bounceInUp;">
+          <div class="img">
+            <img src="img/全球路演中心.jpg" alt="" class="img-responsive">
+          </div>
           <h5>全球路演中心</h5>
           <p>
             免去传统路演邀约客户、找场地、布置会场等一系列繁琐工作<br>；同时省去各项开销成本，轻松实现最大化精准项目路演。
@@ -110,227 +160,296 @@
         </div>
       </div>
     </div>
-  </section>
-  <section class="home-section bg-white">
-    <div class="col-md-offset-2 col-md-8">
-      <div class="section-heading">
-        <h2>独到之处</h2>
-        <div class="heading-line"></div>
-      </div>
+  </div>
+
+</section>
+
+<section class="home-section bg-white">
+  <div class="col-md-offset-2 col-md-8">
+    <div class="section-heading">
+      <h2>独到之处</h2>
+      <div class="heading-line"></div>
     </div>
-    <div class="row">
-      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-        <div class="box-team wow bounceInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: bounceInUp;">
-          <img src="img/垂直管理.jpg" alt="" class="img-responsive">
-          <h5 class="heading-line">垂直管理</h5>
-          <p>
-            实现上下级业务信息高效沟通、<br>及时督导项目成员跟踪每个环节的进度及实施过程留痕。
-          </p>
+  </div>
+  <div class="container">
+    <div class="row original">
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        <div class="box-team wow bounceInUp" data-wow-delay="0.3s"
+             style="visibility: visible; animation-delay: 0.3s; animation-name: bounceInUp;">
+          <div class="img">
+            <img src="img/垂直管理.jpg" alt="" class="img-responsive">
+          </div>
+          <div class="right">
+            <h5 class="heading-line">垂直管理</h5>
+            <p>
+              实现上下级业务信息高效沟通、<br>及时督导项目成员跟踪每个环节的进度及实施过程留痕。
+            </p>
+          </div>
         </div>
       </div>
-      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" data-wow-delay="0.1s">
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" data-wow-delay="0.1s">
         <div class="box-team wow bounceInUp" style="visibility: visible; animation-name: bounceInUp;">
-          <img src="img/横向合作.jpg" alt="" class="img-responsive">
-          <h5>横向合作</h5>
-          <p>
-            跨部门、夸公司有权限的实现资方、<br>项目信息共享，使资源利用最大化。
-          </p>
+          <div class="img">
+            <img src="img/横向合作.jpg" alt="" class="img-responsive">
+          </div>
+          <div class="right">
+            <h5>横向合作</h5>
+            <p>
+              跨部门、夸公司有权限的实现资方、<br>项目信息共享，使资源利用最大化。
+            </p>
+          </div>
         </div>
       </div>
-      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-        <div class="box-team wow bounceInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: bounceInUp;">
-          <img src="img/一键式发布.jpg" alt="" class="img-responsive">
-          <h5>一键式发布</h5>
-          <p>
-            在海量项目及资方中实现精准筛选及智能匹配、<br>促进更高效完成业务合作
-          </p>
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        <div class="box-team wow bounceInUp" data-wow-delay="0.5s"
+             style="visibility: visible; animation-delay: 0.5s; animation-name: bounceInUp;">
+          <div class="img">
+            <img src="img/一键式发布.jpg" alt="" class="img-responsive">
+          </div>
+          <div class="right">
+            <h5>一键式发布</h5>
+            <p>
+              在海量项目及资方中实现精准筛选及智能匹配、<br>促进更高效完成业务合作
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        <div class="box-team wow bounceInUp" data-wow-delay="0.3s"
+             style="visibility: hidden; animation-delay: 0.3s; animation-name: none;">
+          <div class="img">
+            <img src="img/机构间无障碍沟通.jpg" alt="" class="img-responsive">
+          </div>
+          <div class="right">
+            <h5 class="heading-line">机构间无障碍沟通</h5>
+            <p>
+              经认证的FA机构间可实现点对点、<br>一对多就项目及资金匹配、及操作方案可行性在线研讨。
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" data-wow-delay="0.5s">
+        <div class="box-team wow bounceInUp" style="visibility: hidden; animation-name: none;">
+          <div class="img">
+            <img src="img/精准匹配路演对象.jpg" alt="" class="img-responsive">
+          </div>
+          <div class="right">
+            <h5 class="heading-line">精准匹配路演对象</h5>
+            <p>
+              根据项目所属行业；资方投资偏好、决策周期、<br>投资规模、风控措施等属性实现智能邀约相应机构参与路演
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--关于我们
+
+<section class="home-section bg-gray">
+  <div class="container">
+    <div class="row ">
+      <div class="col-md-offset-2 col-md-8">
+        <div class="section-heading">
+          <h2>关于我们</h2>
+          <div class="heading-line"></div>
+        </div>
+      </div>
+    </div>
+    <div class="row wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+      <div class="col-md-6 content">
+        <ul>
+          <li><h6 style="text-align: left">通过巴思戈对资方池与项目池的管理，使管理者较轻松的发现潜在业务机会。</h6></li>
+          <li><h6 style="text-align: left">巴思戈FA撮合区，使原本无法触及的资金及项目实现合作机会，盘活沉淀资源。</h6></li>
+          <li><h6 style="text-align: left">使认证的FA机构实现自由交流，避免因传统交流方式而造成的沟通无连续性。</h6></li>
+          <li><h6 style="text-align: left">不会因人力及物力等因素，随时随地，想”演”就”演”。</h6></li>
+        </ul>
+        <span></span>
+      </div>
+      <div class="col-md-6 about-img">
+        <img src="img/管理系统使用效果.png" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+
+-->
+
+<section id="team" class="home-section bg-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-offset-2 col-md-8">
+        <div class="section-heading">
+          <h2>大咖评论</h2>
         </div>
       </div>
     </div>
     <div class="row">
-      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-        <div class="box-team wow bounceInUp" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none;">
-          <img src="img/机构间无障碍沟通.jpg" alt="" class="img-responsive">
-          <h5 class="heading-line">机构间无障碍沟通</h5>
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        <div class="box-team wow bounceInUp" data-wow-delay="0.1s"
+             style="visibility: visible; animation-delay: 0.1s; animation-name: bounceInUp;">
+          <img src="img/team/程晓明.jpg" alt="" class="img-circle img-responsive">
+          <h5>新三板“教父”-程晓明</h5>
           <p>
-            经认证的FA机构间可实现点对点、<br>一对多就项目及资金匹配、及操作方案可行性在线研讨。
+            巴思戈FA业务管理系统,是我所接触过的CRM系统中<br>最贴近金融中介服务机构业务属性的管理系统。
           </p>
         </div>
       </div>
-      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" data-wow-delay="0.5s">
-        <div class="box-team wow bounceInUp" style="visibility: hidden; animation-name: none;">
-          <img src="img/精准匹配路演对象.jpg" alt="" class="img-responsive">
-          <h5 class="heading-line">精准匹配路演对象</h5>
-          <p>
-            根据项目所属行业；资方投资偏好、决策周期、<br>投资规模、风控措施等属性实现智能邀约相应机构参与路演
-          </p>
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" data-wow-delay="0.3s">
+        <div class="box-team wow bounceInUp" style="visibility: visible; animation-name: bounceInUp;">
+          <img src="img/team/廖述斌.jpg" alt="" class="img-circle img-responsive">
+          <h4>简道众创总裁-廖述斌</h4>
+          <p>巴思戈FA管理系统单就内部管理及撮合市场来说，<br>具备重构行业生态的潜质。</p>
         </div>
       </div>
     </div>
-  </section>
-  <section class="home-section bg-gray">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-offset-2 col-md-8">
-          <div class="section-heading">
-            <h2>使用效果</h2>
-            <div class="heading-line"></div>
-          </div>
-        </div>
-      </div>
-      <div class="row wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
-        <div class="col-md-6 about-img">
-          <img src="img/管理系统使用效果.png" alt="">
-        </div>
+  </div>
+</section>
 
-        <div class="col-md-6 content">
-          <ul>
-            <li><h6 style="text-align: left">通过巴思戈对资方池与项目池的管理，使管理者较轻松的发现潜在业务机会。</h6></li>
-            <li><h6 style="text-align: left">巴思戈FA撮合区，使原本无法触及的资金及项目实现合作机会，盘活沉淀资源。</h6></li>
-            <li><h6 style="text-align: left">使认证的FA机构实现自由交流，避免因传统交流方式而造成的沟通无连续性。</h6></li>
-            <li><h6 style="text-align: left">不会因人力及物力等因素，随时随地，想”演”就”演”。</h6></li>
-          </ul>
+
+<section id="contact" class="home-section bg-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-offset-2 col-md-8">
+        <div class="section-heading">
+          <h2>申请试用</h2>
+          <div class="heading-line"></div>
         </div>
       </div>
     </div>
-  </section>
 
-  <section id="team" class="home-section bg-white">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-offset-2 col-md-8">
-          <div class="section-heading">
-            <h2>大咖评论</h2>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-          <div class="box-team wow bounceInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceInUp;">
-            <img src="img/team/程晓明.jpg" alt="" class="img-circle img-responsive">
-            <h5>新三板“教父”-程晓明</h5>
-            <p>
-              巴思戈FA业务管理系统,是我所接触过的CRM系统中<br>最贴近金融中介服务机构业务属性的管理系统。
-            </p>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" data-wow-delay="0.3s">
-          <div class="box-team wow bounceInUp" style="visibility: visible; animation-name: bounceInUp;">
-            <img src="img/team/廖述斌.jpg" alt="" class="img-circle img-responsive">
-            <h4>简道众创总裁-廖述斌</h4>
-            <p>巴思戈FA管理系统单就内部管理及撮合市场来说，<br>具备重构行业生态的潜质。</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+    <div class="row">
+      <div class="col-md-offset-2 col-md-8">
+        <div id="sendmessage">您的消息我们已经收到,我们会尽快联系您,谢谢!</div>
+        <div id="errormessage"></div>
 
-
-  <section id="contact" class="home-section bg-gray">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-offset-2 col-md-8">
-          <div class="section-heading">
-            <h2>申请试用</h2>
-            <div class="heading-line"></div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-offset-2 col-md-8">
-          <div id="sendmessage">您的消息我们已经收到,我们会尽快联系您,谢谢!</div>
-          <div id="errormessage"></div>
-
-          <form action="" method="post" class="form-horizontal contactForm" role="form">
-            <div class="col-md-offset-2 col-md-8">
-              <div class="form-group">
-                <input type="text" name="name" class="form-control" id="name" placeholder="您的姓名" data-rule="minlen:4" data-msg="姓名必须填写哟">
-                <div class="validation"></div>
-              </div>
-            </div>
-
-
-            <div class="col-md-offset-2 col-md-8">
-              <div class="form-group">
-                <input type="text" class="form-control" name="phone" id="phone" placeholder="您的手机号" data-rule="minlen:4" data-msg="电话必须填写哦">
-                <div class="validation"></div>
-              </div>
-            </div>
-            <div class="col-md-offset-2 col-md-8">
-              <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" id="message" data-msg="Please write something for us" placeholder="请输入您要说的话"></textarea>
-                <div class="validation"></div>
-              </div>
-            </div>
+        <form action="" method="post" class="form-horizontal contactForm" role="form">
+          <div class="col-md-offset-2 col-md-8">
             <div class="form-group">
-              <div class="col-md-offset-2 col-md-8">
-                <button type="submit" class="btn btn-theme btn-lg btn-block">申请试用</button>
-              </div>
+              <input type="text" name="name" class="form-control" id="name" placeholder="您的姓名" data-rule="minlen:4"
+                     data-msg="姓名必须填写哟">
+              <div class="validation"></div>
             </div>
-          </form>
-
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <section id="bottom-widget" class="home-section bg-white">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="contact-widget wow bounceInLeft" style="visibility: visible; animation-name: bounceInLeft;">
-            <i class="fa fa-map-marker fa-4x"></i>
-            <h5>联系地址</h5>
-            <p>
-              江西省南昌市<br>万达中心写字楼b3栋1109
-            </p>
           </div>
-        </div>
-        <div class="col-md-6">
-          <div class="contact-widget wow bounceInUp" style="visibility: visible; animation-name: bounceInUp;">
-            <a href="tel:13707098904">
-              <i class="fa fa-phone fa-4x"></i>
-            </a>
 
-            <h5>联系电话</h5>
-            <p>
-              13707098904
 
-            </p>
+          <div class="col-md-offset-2 col-md-8">
+            <div class="form-group">
+              <input type="text" class="form-control" name="phone" id="phone" placeholder="您的手机号" data-rule="minlen:4"
+                     data-msg="电话必须填写哦">
+              <div class="validation"></div>
+            </div>
           </div>
+          <div class="col-md-offset-2 col-md-8">
+            <div class="form-group">
+              <textarea class="form-control" name="message" rows="5" id="message"
+                        data-msg="Please write something for us" placeholder="请输入您要说的话"></textarea>
+              <div class="validation"></div>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-md-offset-2 col-md-8">
+              <button type="submit" class="btn btn-theme btn-lg btn-block">申请试用</button>
+            </div>
+          </div>
+        </form>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="bottom-widget" class="home-section bg-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="contact-widget wow bounceInLeft" style="visibility: visible; animation-name: bounceInLeft;">
+          <i class="fa fa-map-marker fa-4x"></i>
+          <h5>联系地址</h5>
+          <p>
+            江西省南昌市<br>万达中心写字楼b3栋1109
+          </p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="contact-widget wow bounceInUp" style="visibility: visible; animation-name: bounceInUp;">
+          <a href="tel:13707098904">
+            <i class="fa fa-phone fa-4x"></i>
+          </a>
+
+          <h5>联系电话</h5>
+          <p>
+            13707098904
+
+          </p>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <p>Copyright © 江西诶富诶网络科技有限公司</p>
-        </div>
+
+<!--合作伙伴
+
+<section class="partner bg-gray">
+  <div class="container">
+    <span>合作伙伴</span>
+    <div class="row wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+      <div class="img col-xs-6 col-sm-2 col-md-2 col-lg-2">
+        <img src="img/parallax/1.jpg"/>
+      </div>
+      <div class="img col-xs-6 col-sm-2 col-md-2 col-lg-2">
+        <img src="img/parallax/1.jpg"/>
+      </div>
+      <div class="img col-xs-6 col-sm-2 col-md-2 col-lg-2">
+        <img src="img/parallax/1.jpg"/>
+      </div>
+      <div class="img col-xs-6 col-sm-2 col-md-2 col-lg-2">
+        <img src="img/parallax/1.jpg"/>
+      </div>
+      <div class="img col-xs-6 col-sm-2 col-md-2 col-lg-2">
+        <img src="img/parallax/1.jpg"/>
+      </div>
+      <div class="img col-xs-6 col-sm-2 col-md-2 col-lg-2">
+        <img src="img/parallax/1.jpg"/>
+      </div>
+      <div class="img col-xs-6 col-sm-2 col-md-2 col-lg-2">
+        <img src="img/parallax/1.jpg"/>
       </div>
     </div>
-  </footer>
+  </div>
+</section>
 
-  <a href="tel:13707098904" class="back-to-top" style="display: inline;"><i class="fa fa-phone fa-4x"></i></a>
+-->
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <p>Copyright © 江西诶富诶网络科技有限公司</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<a href="tel:13707098904" class="back-to-top" style="display: inline;"><i class="fa fa-phone fa-4x"></i></a>
 
 
-  <script src="js/jquery.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/wow.min.js"></script>
-  <script src="js/mb.bgndGallery.js"></script>
-  <script src="js/mb.bgndGallery.effects.js"></script>
-  <script src="js/jquery.simple-text-rotator.min.js"></script>
-  <script src="js/jquery.scrollTo.min.js"></script>
-  <script src="js/jquery.nav.js"></script>
-  <script src="js/modernizr.custom.js"></script>
-  <script src="js/grid.js"></script>
-  <script src="js/stellar.js"></script>
-  <script src="contactform/contactform.js"></script>
-  <script src="js/custom.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/mb.bgndGallery.js"></script>
+<script src="js/mb.bgndGallery.effects.js"></script>
+<script src="js/jquery.simple-text-rotator.min.js"></script>
+<script src="js/jquery.scrollTo.min.js"></script>
+<script src="js/jquery.nav.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<script src="js/grid.js"></script>
+<script src="js/stellar.js"></script>
+<script src="contactform/contactform.js"></script>
+<script src="js/custom.js"></script>
 
 </body>
 </html>

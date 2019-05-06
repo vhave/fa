@@ -182,9 +182,9 @@ Home sections
 }
 
 /* --- heading --- */
-.section-heading {
-    margin-bottom: 50px;
-}
+/*.section-heading {*/
+    /*margin-bottom: 50px;*/
+/*}*/
 
 .section-heading h2 {
     font-size: 38px;
@@ -728,6 +728,10 @@ more media queries
     .og-fullimg { display: none; }
     .og-details { float: none; width: 100%; padding: 0 40px; }
 
+    .project .img{
+        height: 280px;
+    }
+
 }
 
 @media (max-width:992px) {
@@ -774,3 +778,105 @@ more media queries
         font-size: 70px;
     }
 }
+
+.project{
+    text-align: center;
+}
+
+.project > div{
+    min-height: 355px;
+}
+
+.project .img{
+    width: 100%;
+    /*height: 280px;*/
+}
+
+.project .img img,
+.original .img img,
+.integration .img img{
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0;
+}
+
+.box-team-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box-team-bottom h5,.original .box-team .right h5{
+    margin: 0;
+    color: #911726;
+}
+
+.box-team-bottom > a{
+    width: 120px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: #FB3333;
+}
+
+.original{
+
+}
+
+.original > div{
+    margin-bottom: 20px;
+}
+
+.original .box-team{
+    display: flex;
+    align-items: center;
+}
+
+.original .box-team .img{
+    flex: 0 0 200px;
+    height: 142px;
+}
+
+
+.original .box-team .right{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.integration .img{
+    background: #fff;
+    width: 313px;
+    height: 313px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.partner{
+    width: 100%;
+    min-height: 127px;
+    box-sizing: border-box;
+}
+
+.partner .container{
+    min-height: 127px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.partner .container span{
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+
+.partner .container .img{
+    margin-bottom: 20px;
+}
+
